@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg text-bg-light sticky-top mb-3">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          Home
+          Spaceflight NEWS
         </Link>
         <button
           className="navbar-toggler"
