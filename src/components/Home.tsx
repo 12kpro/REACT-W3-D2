@@ -25,9 +25,7 @@ const Home = () => {
     <div className="container">
       <div className="row row-cols-3 gy-5">
         {articles.map((article) => (
-          <div key={article.id} className="col">
-            <ArticleCard article={article} />
-          </div>
+          <ArticleCard key={article.id} article={article} />
         ))}
       </div>
     </div>
